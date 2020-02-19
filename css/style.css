@@ -1,0 +1,361 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nav {
+    margin: 26px 0px 0px 0px;
+}
+.nav #logo {
+    height: 32px;
+    width: 50px;
+    margin-left: 109px;
+    float: left;
+    text-decoration: none;
+    font-weight: 800;
+    color: #F06922;
+    font-size: 23px;
+    letter-spacing: 10;
+}
+
+.nav #logo:hover{
+    cursor: pointer;
+    color: #E32E32;
+
+}
+
+
+
+
+
+.nav ul {
+    list-style-type: none;
+    padding: 3px 0px 0px 43%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav li {
+   float: left;
+    
+}
+
+.nav li a {
+    margin-left: 42px;
+    display: block;
+    color: #5C5B5B;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav li :hover{
+    color: #EF6424;
+}
+
+.bg {
+    height: 674px;
+    width: 100%;
+}
+
+.bg #bgtext {
+    padding: 80px 0 0 0;
+    float: left;
+    width: 642px;
+    height: 500px;
+    margin-left: -50px;
+}
+.bg p:nth-of-type(1) {
+    color: rgb(92, 91, 91);
+    font-size: 34px;
+    font-weight: 700;
+}
+.bg p:nth-of-type(2){
+    color: rgba(184, 183, 183, 0.829);
+    margin-top: 34px
+}
+
+.bg #action {
+    background: #EF6424;
+    padding: 12px 43px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 34px
+}
+.bg #action a{
+    color: white;
+    text-decoration: none;
+
+}
+.bg #action:hover {
+    background: #E32E32;
+    cursor: pointer;
+}
+.bg #action a:hover{
+    background: #E32E32;
+    cursor: pointer;
+
+}
+.bg img {
+    float: right;
+    height: 88%;
+    margin-top: 47px;
+}
+
+.about {
+    width: 84%;
+    display: flex;
+    margin: 0 auto;
+    height: 650px;
+}
+
+
+.about img {
+    width: 57%;
+}
+.about #aboutxt {
+    width: 40%;
+    
+}
+
+.about #aboutxt p {
+    margin: 174px -9px 0 32px;
+}
+
+.about #aboutxt #intr {
+    font-size: 35px;
+    color: #343233;
+    font-weight: 700;
+}
+
+.about #aboutxt #des{
+    color: #878787;
+}
+
+.about #aboutxt #bigdes{
+    color: #9C9C9C ;
+}
+
+.about #aboutxt button#cv {
+    padding: 10px 30px 10px 34px;
+    color: white;
+    background: #F89714;
+    border: none;
+    border-radius: 6px;
+    margin-top: 26px;
+    text-decoration: none;
+}
+
+.about #aboutxt button#cv a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.about #aboutxt button#cv:hover{
+    cursor: pointer;
+    background-color: #E32E32;
+}
+
+.service {
+    height: 650px;
+    margin-top: 60px;
+}
+.service #sertxt {
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.service #sertxt p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: 700;
+    color: #343233;
+    
+}
+
+.service #sertxt p:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 16px;
+    color: #5C5B5B;
+    
+}
+
+.service .serwrap {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.service .serwrap #ui {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #D9C9C3;
+    border-right: 1px solid #D9C9C3;
+}
+
+.service .serwrap #prod{
+
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #D9C9C3;
+    border-right: 1px solid #D9C9C3;
+}
+
+.service .serwrap #app{
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #D9C9C3;
+    
+
+}
+
+.service .serwrap #ui img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+
+.service .serwrap #prod img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+.service .serwrap #app img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+
+.service .serwrap p#txt {
+    text-align: center;
+    color: #5C5B5B;
+    margin-top: 22px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+}
+
+
+
+.service .serwrap2 {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.service .serwrap #ill {
+    padding: 40px;
+    text-align: center;
+    
+    border-right: 1px solid #D9C9C3;
+}
+
+.service .serwrap #red{
+
+    padding: 40px;
+    text-align: center;
+    
+    border-right: 1px solid #D9C9C3;
+}
+
+.service .serwrap #res{
+    padding: 40px;
+    text-align: center;
+    
+    
+
+}
+
+.service .serwrap p#txt {
+    text-align: center;
+    color: #5C5B5B;
+    margin-top: 22px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.service .serwrap h1{
+    color: #343233;
+    font-size: 19px;
+
+}
+
+.service .serwrap #ill img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+
+.service .serwrap #red img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+.service .serwrap #res img{
+    width: 88px;
+    text-align: center;
+    color: #5C5B5B;
+
+
+}
+
+
+
+.service .serwrap #ui:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+
+
+.service .serwrap #app:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+.service .serwrap #ill:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+.service .serwrap #red:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+.service .serwrap #res:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+.service .serwrap #prod:hover{
+
+    background-color: rgb(251, 253, 115);
+
+}
+
+
+
+
