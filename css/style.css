@@ -71,6 +71,7 @@ a{
 .bg #bgtext {
     float: left;
     width: 42%;
+    margin: 50px 0 0 -53px;
 }
 .bg p:nth-of-type(1) {
     color: rgb(92, 91, 91);
