@@ -63,13 +63,14 @@ a{
     height: 674px;
     width: 100%;
 }
-
+.bg img {
+    float: right;
+    height: 94%;
+    margin-top: 47px;
+}
 .bg #bgtext {
-    padding: 80px 0 0 0;
     float: left;
-    width: 642px;
-    height: 500px;
-    margin-left: -50px;
+    width: 42%;
 }
 .bg p:nth-of-type(1) {
     color: rgb(92, 91, 91);
@@ -82,32 +83,23 @@ a{
     margin-top: 34px
 }
 
-.bg #action {
-    background: #EF6424;
-    padding: 12px 43px;
-    border-radius: 6px;
-    border: none;
-    margin-top: 34px
-}
-.bg #action a{
+
+.bg a {
     color: white;
     text-decoration: none;
-
-}
-.bg #action:hover {
     background: #E32E32;
-    cursor: pointer;
+    padding: 9px 25px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 38px;
 }
-.bg #action a:hover{
-    background: #E32E32;
-    cursor: pointer;
 
-}
 .bg img {
     float: right;
     height: 88%;
     margin-top: 47px;
 }
+
 
 .about {
     width: 84%;
@@ -143,26 +135,24 @@ a{
     color: #9C9C9C ;
 }
 
-.about #aboutxt button#cv {
-    padding: 10px 30px 10px 34px;
+
+
+.about a {
+    
+    padding: 10px 25px;
     color: white;
     background: #F89714;
     border: none;
     border-radius: 6px;
-    margin-top: 26px;
     text-decoration: none;
+    position: relative;
+    margin-left: 30px;
 }
-
-.about #aboutxt button#cv a {
-    
-    color: white;
-    text-decoration: none;
-}
-
-.about #aboutxt button#cv:hover{
+.about a:hover{
     cursor: pointer;
     background-color: #E32E32;
 }
+
 
 .service {
     height: 650px;
@@ -447,7 +437,7 @@ a{
 
 .client {
     padding: 0 13%;
-    height: 650px;
+    height: 500px;
 }
 
 .client-cont{
@@ -456,7 +446,7 @@ a{
 }
 
 .client-cont img {
-    width: 35%;
+    width: 33%;
 }
 
 .client-box {
@@ -508,11 +498,151 @@ a{
     float: left;
     margin-left: 10px;
     
+}
+
+.latest-news {
+    padding: 0 0 0 13%;
+}
+
+.news-txt{
+    display: flex;
+}
+.news-txt h1{
+    color: #343233;
+}
+.news-txt p{
+    color: #5C5B5B;
+}
+
+.fa-arrow-left:before {
+    font-size: 23px;
+    margin-left: 427px;
+    color: #878787;
+}
+
+.fa-arrow-right:before {
+    font-size: 27px;
+    margin-left: 21px;
+    color: #F89714;
+}
+
+.news-img {
+    display: flex;
+    margin-top: 52px;
+}
+.let-news1{
+    width: 38%;
+    padding-right: 50px;
     
+}
+
+.let-news1 h1 {
+    color: #343233;
+    margin-top: 79px;
+    margin-left: 76px;
+}
+.let-news1 p {
+    color: #5C5B5B;
+    margin-top: 46px;
+    margin-left: 76px;
+}
+.news-img img{
+    width: 38%;
+}
+.let-news1 a{
+    margin-top: 76px;
+    text-decoration: underline;
+    margin-left: 76px;
+    color: #F06922;
+}
+
+.date{
+    float: right;
+    color: #878787;
+    
+}
+.let-border {
+    border-left: 5px solid #F06922;
+    float: left;
+    height: 62px;
+    
+
+}
+
+.news-img2 {
+    display: flex;
+    margin-top: 36px;
+}
+
+.news-txt2 h1 {
+    margin: 41px 0 0 56px;
+    color:#343233
+}
+.news-txt2 p {
+    margin: 44px 0 0 56px;
+    color:#5C5B5B
+}
+
+.news-txt2 a {
+    margin: 0 0 55 55;
+    color: #F06922;
+    text-decoration: underline;
+    float: left;
+}
+.news-img2 img {
+    width: 40%;
+    height: 37%;
+   
 }
 
 
 
+.news-txt2 {
+    width: 38%;
+    
+}
+
+.date2{
+    float: right;
+    color: #878787;
+    
+}
+.let-border2 {
+    border-right: 5px solid #F06922;
+    float: right;
+    height: 62px;
+    margin-top: 58px;
+}
+
+.project {
+    display: flex;
+    text-align: center;
+    padding: 7% 19% 19% 13%;
+}
+.project img {
+    width: 12%;
+}
+.project h1 {
+    color: #343233;
+    margin-bottom: 26px;
+}
+
+.call-to-action{
+    flex-grow: 6
+}
+
+.call-to-action a {
+    padding: 8px 25px;
+    background-color: #E32E32;
+    border-radius: 7px;
+    color: white;
+}
+
+.call-to-action a:hover {
+    padding: 8px 25px;
+    background-color: #F89714;
+    
+}
 
 
 
