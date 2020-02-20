@@ -644,9 +644,8 @@ a{
 
 .footer {
     display: flex;
-   
     border-top: 1px solid #F89714;
-    margin: 0 198px 0 198px;
+    margin: 0 198px 8px 198px;
 }
 
 
@@ -760,4 +759,10 @@ a{
     border-radius: 39px;
     box-shadow: 10px ;
 
+}
+
+.copy{
+    color: #9C9C9C;
+    font-size: 15px;
+    text-align: center;
 }
