@@ -237,7 +237,7 @@ a{
     font-size: 14px;
     letter-spacing: 1px;
 }
-}
+
 
 
 
@@ -615,7 +615,7 @@ a{
 .project {
     display: flex;
     text-align: center;
-    padding: 7% 15% 19% 13%;
+    padding: 7% 15% 7% 13%;
 }
 .project img {
     width: 12%;
@@ -642,9 +642,122 @@ a{
     
 }
 
+.footer {
+    display: flex;
+   
+    border-top: 1px solid #F89714;
+    margin: 0 198px 0 198px;
+}
 
 
 
+.footer h3{
+    color: #343233;
+    
+}
+.footer  p{
+    color: #5C5B5B;
+    margin-top: 10px;
+}
+
+.footer  a{
+    color: #5C5B5B;
+    
+    
+}
+
+.footer  a:hover{
+    color: #F89714
+    
+}
 
 
 
+.address{
+    flex-grow: 3;
+}
+
+.ser-link {
+    flex-grow: 3;
+    margin-left: 35px;
+}
+.links{
+    flex-grow:3 ;
+}
+
+.touch{
+    flex-grow: 4;
+}
+
+
+.touch input[type=text] {
+    background-color: rgba(156, 156, 156, 0.247);
+    padding: 15px 64px 13px 33px;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    color: #5C5B5B;
+}
+
+
+.touch input[type=submit]{
+    background-color: #F89714;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: aliceblue;
+    border-width: 0;
+}
+
+.touch input[type=submit]:hover{
+    background-color: #E32E32;
+    cursor: pointer;
+}
+
+.adress  i {
+    font-size: 19px;
+    padding: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.adress i:hover {
+    background-color: #F89714;
+    color: white;
+}
+.fa-facebook {
+    background-color:  #4267B2;
+    color:white ;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+    cursor: pointer;
+    
+}
+.fa-linkedin {
+    background-color: #0077B5;
+    color: white  ;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+  
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+    color:  white;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+   
+
+}
+
+.fa-youtube-play {
+    background-color: #FF0000;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+    box-shadow: 10px ;
+
+}
