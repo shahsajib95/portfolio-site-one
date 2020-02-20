@@ -71,7 +71,6 @@ a{
 .bg #bgtext {
     float: left;
     width: 42%;
-    margin: 39px 0 0 -55px;
 }
 .bg p:nth-of-type(1) {
     color: rgb(92, 91, 91);
@@ -236,6 +235,7 @@ a{
     margin-top: 22px;
     font-size: 14px;
     letter-spacing: 1px;
+}
 }
 
 
@@ -443,10 +443,10 @@ a{
 .client-cont{
     display: flex;
 
-}git 
+}
 
 .client-cont img {
-    width: 33%;
+    width: 35%;
 }
 
 .client-box {
@@ -546,8 +546,8 @@ a{
     margin-top: 46px;
     margin-left: 76px;
 }
-.news-img img{
-    width: 38%;
+.news-img img {
+    width: 40%;
 }
 .let-news1 a{
     margin-top: 76px;
@@ -574,6 +574,9 @@ a{
     margin-top: 36px;
 }
 
+.news-txt2 {
+    width: 42%;
+}
 .news-txt2 h1 {
     margin: 41px 0 0 56px;
     color:#343233
@@ -596,12 +599,6 @@ a{
 }
 
 
-
-.news-txt2 {
-    width: 38%;
-    
-}
-
 .date2{
     float: right;
     color: #878787;
@@ -617,7 +614,7 @@ a{
 .project {
     display: flex;
     text-align: center;
-    padding: 7% 19% 19% 13%;
+    padding: 7% 15% 19% 13%;
 }
 .project img {
     width: 12%;
@@ -632,7 +629,7 @@ a{
 }
 
 .call-to-action a {
-    padding: 8px 25px;
+    padding: 10px 25px;
     background-color: #E32E32;
     border-radius: 7px;
     color: white;
